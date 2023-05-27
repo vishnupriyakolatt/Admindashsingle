@@ -2,6 +2,7 @@ import React from 'react';
 import '../Components/Dash.css';
 import { ResponsiveBar } from '@nivo/bar';
 import { BarChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Bar } from 'recharts';
+import AdminNavbar from './AdminNavbar';
 
 function Dashboard() {
     const data = {
@@ -18,28 +19,33 @@ function Dashboard() {
 
   return (
     <div>
+        <AdminNavbar/>
  
       <div className='container'>
         <div className='column'>
-          <h2 className='head'>Accounts Dashboard</h2>
+     <h2 className='head'>Accounts Dashboard</h2>
           <table className='design'>
             <tr>
-              <th className='heading'>Accounts</th>
+                <th><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/></th>
+              <th className='heading'> Accounts</th>
               <th className='heading'>Debits</th>
               <th className='heading'>Credits</th>
             </tr>
             <tr>
-              <td align='center'>sales</td>
+            <th><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/></th>
+              <td align='center'> sales</td>
               <td align='center'>520000</td>
               <td align='center'>0</td>
             </tr>
             <tr>
-              <td align='center'>Purchase</td>
+            <th><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/></th>
+              <td align='center'> Purchase</td>
               <td align='center'>0</td>
               <td align='center'>520000</td>
             </tr>
             <tr>
-              <td align='center'>Assets</td>
+            <th><input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"/></th>
+              <td align='center'> Assets</td>
               <td align='center'>25000</td>
               <td align='center'>10000</td>
             </tr>
