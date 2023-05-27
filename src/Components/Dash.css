@@ -1,0 +1,27 @@
+.container{
+display:flex
+}
+
+.column{
+    flex:1;
+ margin-right: 45px;
+}
+.design{
+    margin-top: 24px;
+    margin-left: 45px;
+    width:450px
+}
+.head{
+    font-size: 18px;
+    margin-top: 84px;
+    margin-left: 23px;
+}
+th,td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+   
+}
+.heading{
+    padding: 10px;
+}
+
